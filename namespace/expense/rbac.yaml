@@ -15,8 +15,8 @@ metadata:
   namespace: expense
 subjects:
 # You can specify more than one "subject"
-- kind: user
-  name: bharath # "name" is case sensitive
+- kind: Group
+  name: expense-pod-reader # "name" is case sensitive
   apiGroup: rbac.authorization.k8s.io
 roleRef:
   # "roleRef" specifies the binding to a Role / ClusterRole
