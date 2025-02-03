@@ -10,7 +10,7 @@ data:
     - groups:
       - expense-pod-reader
       userarn: arn:aws:iam::631186618481:user/bharath
-      username: harish
+      username: bharath
 kind: ConfigMap
 metadata:
   creationTimestamp: "2025-02-03T10:33:40Z"
